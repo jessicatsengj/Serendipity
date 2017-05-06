@@ -1,0 +1,419 @@
+
+/*all*/
+
+/**{
+  border: solid 1px green;
+}*/
+
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
+html, body{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image: url('/Image/forest.png');
+  background-position: center top;
+  background-attachment: fixed;
+  padding-top: 60px;
+}
+
+.space{
+  margin-top: 80px;
+}
+.small_space{
+  margin-top: 15px;
+}
+
+/*navigation*/
+.nav{
+  position: fixed;
+  width: 100%;
+}
+.navi{
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.port_navi{
+  top: 55px;
+  left: 0;
+  z-index: 5;
+}
+.ts .menu{
+  box-shadow: 0px 0px 0px 0 #000;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
+.ts.menu .item:first-child, .ts.menu .item:not(:first-child) {
+  border-right: none;
+}
+.ts.menu .item{
+  padding: 5px;
+}
+.ts.menu.black {
+  background-color: rgba(0, 0, 0, 1);
+}
+.ts.menu.green{
+  background-color: rgba(147, 172, 152, 0.7);
+}
+.logo{
+  display: inline-block;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.nav_item{
+  color: white;
+  display: inline-block;
+  padding-bottom: 0px;
+  text-align: center;
+  height: 30px;
+  width: 100px;
+}
+.myLink{
+  color: white;
+  text-decoration: none;
+  font-family: 'Kalam', cursive;
+}
+.myOtherLink{
+  display: block;
+  margin-left: 15px;
+  padding-top: 15px;
+}
+.myLink:hover{
+  color: #DAEBDD;
+}
+.selected{
+  color: #93AC98;
+}
+.port_selected{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.portLink{
+  color: #124657;
+  border: solid 1px #124657;
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: 'Kalam', cursive;
+  padding: 5px;
+  width: 80px;
+  text-align: center;
+}
+
+
+/*article block*/
+.title{
+  font-size: 30px;
+  font-family: 'Kalam', cursive;
+  border-bottom: solid 2px;
+  line-height: 40px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.white{
+  color: #fff;
+  border-color: #fff;
+}
+.dark_green{
+  color: #124657;
+  border-color: #124657;
+}
+.articleLink{
+  color: #fff;
+  text-decoration: none;padding-left: 10px;
+}
+.ts.list{
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 450px;
+  width: 200px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+/* overwrite tocas */
+.ts.container:not(.narrow) {
+   margin: 0px !important;
+}
+
+/*Novels*/
+.novel_block{
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.ts.card{
+  display: inline-block;
+  box-shadow: 0px 0px 10px #888888;
+}
+.ts.stackable.two.cards{
+  padding: 10px;
+}
+.novel_image{
+  /*border: solid 2px #000;*/
+}
+.myCardsLink.words{
+  color: #000;
+  padding: 10px;
+  line-height: 21px;
+}
+
+/*ListCards*/
+.content_block{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  padding-top: 15px;
+}
+.li_link{
+  margin: 10px;
+}
+.li_link:hover{
+  transform: translateY(-1px);
+}
+.green_bg{
+  background-color: rgba(147, 172, 152, 0.7);
+}
+.white_bg{
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.black_bg{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.ts.items>.item>.content>.white{
+  color: #fff;
+}
+.ts.divided.items{
+  padding: 10px;
+}
+.ts.items>.item>.image:not(.ts):not(.flexible){
+  width: 150px;
+}
+img.project_img{
+  width: 150px;
+}
+.ts.divided.items>.dark_green{
+  border-color: #124657;
+}
+.type{
+  color: #fff;
+  border: solid 1px #fff;
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*novel page*/
+.cover_image{
+  width:100%;
+  margin-bottom: 20px;
+}
+.recommand_novel{
+  margin-top: 40px;
+}
+.novel_content{
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/*homepage*/
+.home_bg{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.ts.grid>.column:not(.row), .ts.grid>.row .column:not(.row){
+  padding: 0;
+}
+.home_content{
+  padding: 30px;
+  padding-top: 100px;
+}
+.home_image{
+  position: relative;
+}
+.black_block{
+  background-color: #000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.home_title{
+  padding-bottom: 10px;
+}
+.home_intro{
+  text-align: center;
+  vertical-align: middle;
+  padding: 80px;
+  padding-top: 25%;
+}
+.home_title_intro{
+  font-size: 16px;
+  line-height: 24px;
+}
+.side{
+  line-height: 30px;
+  color: #124657;
+}
+.textCard{
+  padding: 10px;
+}
+div.ts.card.link.textCard{
+  background-image: url('/Image/paper.jpg');
+  background-size: cover;
+}
+div.secondary.extra.content{
+  padding-bottom: 10px;
+}
+.card_section{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.myCardsLink{
+  color: #000;
+}
+.rect{
+  background-color: rgba(180, 208, 234, 0.7);
+  padding: 30px;
+  margin-bottom: -50px;
+}
+.designer_pic_here{
+  width: 100px;
+  margin-top: 10px;
+}
+.pic_intro{
+}
+.ts.chatroom>.content .message .content .text{
+  padding: 20px;
+}
+.ts.chatroom>.content .message{
+  padding: 20px;
+}
+.foot_line{
+  border-right: solid 1px #fff;
+}
+.foot_block{
+  padding: 10px;
+  text-align: center;
+  height: 100px;
+  position: relative;
+}
+.footer{
+  padding: 50px;
+  margin-top: 50px;
+}
+.foot_text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+i{
+  width: 30px;
+}
+.icon_link{
+  color: #fff;
+}
+.icon_link:hover{
+  color: #DAEBDD;
+}
+
+/*articles*/
+.writing_bg{
+  background-color: #fff;
+}
+.passage{
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 70px;
+  font-size: 18px;
+  line-height: 24px;
+}
+.ts.grid>.column:not(.row), .ts.grid>.row .column:not(.row){
+  padding: 10px;
+}
+.title_intro{
+  font-size: 24px;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+.writing_type{
+  color: #124657;
+  border: solid 1px #124657;
+  border-radius: 20px;
+  padding: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+  margin-left: 30px;
+  vertical-align: top;
+}
+.author{
+  margin-top: 40px;
+}
+.author_name{
+  display: inline-block;
+}
+.passage_content{
+  margin-left: 90px;
+  margin-right: 80px;
+  margin-top: 20px;
+}
+.passage_content_sm{
+  margin-left: 90px;
+  margin-right: 80px;
+  /*margin-top: 20px;*/
+}
+.ts.steps:not(.simple) .step{
+  padding: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.ts.steps:not(.simple) .step:first-child{
+  padding-left: 10px;
+}
+.title{
+  border-bottom: none;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.ts.steps:not(.simple){
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.small_topic{
+  margin-bottom: 40px;
+}
+.writing_pic{
+  width: 100%;
+}
+.ts.stackable.table{
+  font-size: 14px;
+}
+.writing_pic_sm{
+  display: inline-block;
+  width:47%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*storyboard*/
+div.ts.segment{
+  display: inline-block;
+  width: 95%;
+}
+.number{
+  font-size: 24px;
+  margin-right: 20px;
+}
+.indent{
+  margin-left: 20px;
+}
