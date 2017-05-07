@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import PageLayout from '../elements/PageLayout';
 import Projects from './Projects';
 import TextCards from '../elements/TextCards';
+import pic from '../../public/Image/serendipity.jpg';
 
 class HomePage extends Component {
   render() {
@@ -20,7 +21,7 @@ class HomePage extends Component {
               </p>
               </div>
               <div className="ts fluid image">
-                <img className="home_image" src="/Image/serendipity.jpg" />
+                <img className="home_image" src={pic} />
               </div>
             </div>
           </div>
