@@ -1,9 +1,4 @@
 
-/*all*/
-
-/**{
-  border: solid 1px green;
-}*/
 
 @import url('https://fonts.googleapis.com/css?family=Kalam');
 
@@ -12,7 +7,7 @@ html, body{
   margin: 0;
 }
 body{
-  background-image: url('/Image/forest.png');
+  background-image: url('../Image/forest.png');
   background-position: center top;
   background-attachment: fixed;
   padding-top: 60px;
@@ -140,7 +135,7 @@ body{
 }
 
 /*Novels*/
-.novel_block{
+/*.novel_block{
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 10px;
   padding-left: 30px;
@@ -156,17 +151,14 @@ body{
 .ts.stackable.two.cards{
   padding: 10px;
 }
-.novel_image{
-  /*border: solid 2px #000;*/
-}
 .myCardsLink.words{
   color: #000;
   padding: 10px;
   line-height: 21px;
-}
+}*/
 
 /*ListCards*/
-.content_block{
+/*.content_block{
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 15px;
@@ -210,7 +202,26 @@ img.project_img{
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
+}*/
+
+/*textcards*/
+/*.textCard{
+  padding: 10px;
 }
+div.ts.card.link.textCard{
+  background-image: url('../Image/paper.jpg');
+  background-size: cover;
+}
+div.secondary.extra.content{
+  padding-bottom: 10px;
+}
+.card_section{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.myCardsLink{
+  color: #000;
+}*/
 
 /*novel page*/
 .cover_image{
@@ -262,27 +273,11 @@ img.project_img{
   line-height: 30px;
   color: #124657;
 }
-.textCard{
-  padding: 10px;
-}
-div.ts.card.link.textCard{
-  background-image: url('/Image/paper.jpg');
-  background-size: cover;
-}
-div.secondary.extra.content{
-  padding-bottom: 10px;
-}
-.card_section{
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-.myCardsLink{
-  color: #000;
-}
+
 .rect{
   background-color: rgba(180, 208, 234, 0.7);
   padding: 30px;
-  margin-bottom: -50px;
+  /*margin-bottom: -50px;*/
 }
 .designer_pic_here{
   width: 100px;
@@ -296,6 +291,8 @@ div.secondary.extra.content{
 .ts.chatroom>.content .message{
   padding: 20px;
 }
+
+/*footer*/
 .foot_line{
   border-right: solid 1px #fff;
 }
@@ -307,7 +304,7 @@ div.secondary.extra.content{
 }
 .footer{
   padding: 50px;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
 }
 .foot_text{
   position: absolute;
@@ -315,6 +312,9 @@ div.secondary.extra.content{
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
+}
+.bottom_space{
+  margin-bottom: 50px;
 }
 i{
   width: 30px;
@@ -404,9 +404,17 @@ i{
   padding-left: 20px;
   padding-right: 20px;
 }
-
+.writing_pic_xs{
+  display: inline-block;
+  width:24%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.inline_p{
+  display: inline-block;
+}
 /*storyboard*/
-div.ts.segment{
+/*div.ts.segment{
   display: inline-block;
   width: 95%;
 }
@@ -416,4 +424,4 @@ div.ts.segment{
 }
 .indent{
   margin-left: 20px;
-}
+}*/
