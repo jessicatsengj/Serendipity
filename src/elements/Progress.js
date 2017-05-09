@@ -39,6 +39,7 @@ class Progress extends Component {
                  <div className="title">Testing</div>
              </div>
          </div>
+         
       </div>
     );
   }

@@ -38,7 +38,7 @@ class WritingPage extends Component {
             </div>
             <div className="one wide column" />
           </div>
-          <div className="row">
+          <div className="row bottom_space">
             <div className="one wide column" />
             <div className="forteen wide column">
                 <div className="novel_block">

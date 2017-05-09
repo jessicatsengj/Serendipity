@@ -113,30 +113,13 @@ class HomePage extends Component {
                 <div className="left message">
                   <div className="content">
                     <div className="text">
-                        無題空間網站，是個人作品集的匯聚。作品類型包含圖像、動畫、小說創作、數位內容專案等等，連同網站本身的設計與架設。
+                        無題空間網站，是個人作品集的匯聚。作品類型包含圖像、動畫、小說創作、數位內容專案等等，連同網站本身的設計與架設。由於部分配合國外作品集製作，以致整體網站中英夾雜，還請見諒。
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            {/* <p>OMG OMG OMG OMG OMG OMG OMG OMG</p> */}
           </div>
-          {/* <div className="fourteen wide column">
-            <div className="ts chatroom">
-              <div className="content">
-                  <div className="left message">
-                      <div className="avatar">
-                          <img className="designer_pic_here" src="/Image/my_pic.png" />
-                      </div>
-                      <div className="content">
-                          <div className="text">
-                              早安！
-                          </div>
-                      </div>
-                  </div>
-              </div>
-            </div>
-          </div> */}
           <div className="one wide column" />
         </div>
       </PageLayout>

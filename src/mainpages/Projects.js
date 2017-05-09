@@ -14,14 +14,14 @@ class Projects extends Component {
           <div className="one wide column" />
           <div className="seven wide column">
             <ListCards
-              liCardLink = "/projects/WellGo"
+              liCardLink = "/Serendipity/projects/WellGo"
               liCardImage = "https://tocas-ui.com/assets/img/15d7510.png" liCardHeader = "WellGO App"
               liCardType = "App"
               liCardDescription = "Solving problems for a specific group, making their world a better place."/>
           </div>
           <div className="seven wide column">
             <ListCards
-              liCardLink = "/projects/WellGo"
+              liCardLink = "/Serendipity/projects/DCTgraduation"
               liCardImage = "https://tocas-ui.com/assets/img/15d7510.png"
               liCardHeader = "Graduation Project"
               liCardType = "Interaction"

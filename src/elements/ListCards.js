@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import {NavLink} from 'react-router-dom';
+import CardCss from '../../public/css/cards.css';
 
 
 class ListCards extends Component {

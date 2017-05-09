@@ -20,18 +20,18 @@ class PortNavi extends Component {
             <div className="ts fluid container nav port_navi">
               <div className="ts menu green">
                 <div className="right menu">
-                    <div className="item"><NavLink className="portLink" activeClassName="port_selected" to="/projects">Projects</NavLink></div>
-                    <div className="item"><NavLink className="portLink" activeClassName="port_selected" to="/drawings">Drawings</NavLink></div>
-                    <div className="item"><NavLink className="portLink" activeClassName="port_selected" to="/interaction">Interaction</NavLink></div>
+                    <div className="item"><NavLink className="portLink" activeClassName="port_selected" to="/Serendipity/projects">Projects</NavLink></div>
+                    <div className="item"><NavLink className="portLink" activeClassName="port_selected" to="/Serendipity/drawings">Drawings</NavLink></div>
+                    <div className="item"><NavLink className="portLink" activeClassName="port_selected" to="/Serendipity/interaction">Interaction</NavLink></div>
                 </div>
               </div>
             </div>
 
 
             <div>
-              <Route exact path="/projects" component={Projects}/>
-              <Route path="/drawings" component={Drawings}/>
-              <Route path="/interaction" component={Interaction}/>
+              <Route exact path="/Serendipity/projects" component={Projects}/>
+              <Route path="/Serendipity/drawings" component={Drawings}/>
+              <Route path="/Serendipity/interaction" component={Interaction}/>
             </div>
         </div>
       </Router>
